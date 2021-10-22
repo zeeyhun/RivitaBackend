@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\source\\repos\\RivitaBackend\\RivitaBackend\\RivitaBackend.csproj": {}
+    "D:\\AspNetApps\\RivitaBackend\\RivitaBackend\\RivitaBackend.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\source\\repos\\RivitaBackend\\RivitaBackend\\RivitaBackend.csproj": {
+    "D:\\AspNetApps\\RivitaBackend\\RivitaBackend\\RivitaBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\source\\repos\\RivitaBackend\\RivitaBackend\\RivitaBackend.csproj",
+        "projectUniqueName": "D:\\AspNetApps\\RivitaBackend\\RivitaBackend\\RivitaBackend.csproj",
         "projectName": "RivitaBackend",
-        "projectPath": "C:\\Users\\User\\source\\repos\\RivitaBackend\\RivitaBackend\\RivitaBackend.csproj",
+        "projectPath": "D:\\AspNetApps\\RivitaBackend\\RivitaBackend\\RivitaBackend.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\source\\repos\\RivitaBackend\\RivitaBackend\\obj\\",
+        "outputPath": "D:\\AspNetApps\\RivitaBackend\\RivitaBackend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,10 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[5.6.3, )"
