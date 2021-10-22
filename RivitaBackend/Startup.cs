@@ -26,6 +26,15 @@ namespace RivitaBackend
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            // adding Cors policy. so user from other networks could access our API. just adding policy with name
+            //basically allowing here anybody and everybody to access this API
+            services.AddCors(o =>
+            {
+                o.AddPolicy("AllowAll", builder =>
+                   builder.AllowAnyOrigin()
+                   .AllowAnyMethod()
+                   .AllowAnyHeader());
+            });
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -45,6 +54,9 @@ namespace RivitaBackend
             }
 
             app.UseHttpsRedirection();
+
+            // letting app know that it should use CORS policy with name "AllowAll" that i created 
+            app.UseCors("AllowAll");
 
             app.UseRouting();
 
