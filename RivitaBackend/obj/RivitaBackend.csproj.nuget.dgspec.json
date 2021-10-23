@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AspNetApps\\RivitaBackend\\RivitaBackend\\RivitaBackend.csproj": {}
+    "D:\\Lukai\\RivitaBackend\\RivitaBackend\\RivitaBackend.csproj": {}
   },
   "projects": {
-    "D:\\AspNetApps\\RivitaBackend\\RivitaBackend\\RivitaBackend.csproj": {
+    "D:\\Lukai\\RivitaBackend\\RivitaBackend\\RivitaBackend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AspNetApps\\RivitaBackend\\RivitaBackend\\RivitaBackend.csproj",
+        "projectUniqueName": "D:\\Lukai\\RivitaBackend\\RivitaBackend\\RivitaBackend.csproj",
         "projectName": "RivitaBackend",
-        "projectPath": "D:\\AspNetApps\\RivitaBackend\\RivitaBackend\\RivitaBackend.csproj",
-        "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "D:\\AspNetApps\\RivitaBackend\\RivitaBackend\\obj\\",
+        "projectPath": "D:\\Lukai\\RivitaBackend\\RivitaBackend\\RivitaBackend.csproj",
+        "packagesPath": "C:\\Users\\abdoa\\.nuget\\packages\\",
+        "outputPath": "D:\\Lukai\\RivitaBackend\\RivitaBackend\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\abdoa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
